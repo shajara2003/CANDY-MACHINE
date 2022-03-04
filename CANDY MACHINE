@@ -1,0 +1,26 @@
+package CandyMachine;
+
+import java.util.Scanner;
+
+public class CandyMachine {
+
+  public static void main(String[] args) {
+ Scanner scan = new Scanner(System.in);
+
+ System.out.println("*** Welcome to NRSC Candy Shop ***");
+ System.out.println(" To select an item, please enter ");
+ System.out.println("1 for Candy");
+ System.out.println("2 for chips");
+ System.out.println("3 for gum");
+ System.out.println("4 for cookies");
+ scan.next();
+ System.out.println("Reminder that each item will cost 50 pesos" + " please enter 0 if you want to buy it");
+ scan.next();
+ System.out.println("Thank you! Please deposit 50 pesos:");
+ scan.next();
+ System.out.println("I received 50 pesos." + "To collect item, enter 6");
+ scan. next();
+ System.out.println("Item released! Thank you very much for your purchase and enjoy😊");
+   
+  }
+}
